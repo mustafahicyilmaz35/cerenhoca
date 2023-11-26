@@ -34,9 +34,9 @@
 // Koşullar
 // Döngüler
 
-using HelloProject;
+//using HelloProject;
 
-int sayi = 3;
+//int sayi = 3;
 
 //if (sayi < 10)
 //{
@@ -68,35 +68,120 @@ int sayi = 3;
 //}
 
 
-Gunler gun = Gunler.Çarşamba;
+//Gunler gun = Gunler.Çarşamba;
 
 
 
 
-switch (gun)
-{
-    case Gunler.Pazartesi:
-        Console.WriteLine("Bugün pazartesi");
-        break;
-    case Gunler.Salı:
-        Console.WriteLine("Bugün Salı");
-        break;
-    case Gunler.Çarşamba: //magic string
-        Console.WriteLine("Bugün Çarşamba");
-        break;
-    case Gunler.Perşembe:
-        Console.WriteLine("Bugün Perşembe");
-        break;
-    case Gunler.Cuma:
-        Console.WriteLine("Bugün Cuma");
-        break;
-    case Gunler.Cumartesi:
-        Console.WriteLine("Bugün Cumartesi");
-        break;
-    case Gunler.Pazar:
-        Console.WriteLine("Bugün Pazar");
-        break;
-    default: Console.WriteLine("Lütfen bir gün değeri girin");
-        break;
+//switch (gun)
+//{
+//    case Gunler.Pazartesi:
+//        Console.WriteLine("Bugün pazartesi");
+//        break;
+//    case Gunler.Salı:
+//        Console.WriteLine("Bugün Salı");
+//        break;
+//    case Gunler.Çarşamba: //magic string
+//        Console.WriteLine("Bugün Çarşamba");
+//        break;
+//    case Gunler.Perşembe:
+//        Console.WriteLine("Bugün Perşembe");
+//        break;
+//    case Gunler.Cuma:
+//        Console.WriteLine("Bugün Cuma");
+//        break;
+//    case Gunler.Cumartesi:
+//        Console.WriteLine("Bugün Cumartesi");
+//        break;
+//    case Gunler.Pazar:
+//        Console.WriteLine("Bugün Pazar");
+//        break;
+//    default: Console.WriteLine("Lütfen bir gün değeri girin");
+//        break;
 
-}
+//}
+
+
+
+//DRY Dont Repeat Yourself
+//Console.WriteLine("Hello World");
+//Console.WriteLine("Hello World");
+//Console.WriteLine("Hello World");
+//Console.WriteLine("Hello World");
+//Console.WriteLine("Hello World");
+
+// while, for, do-while, foreach
+
+//int i = 0;
+//while(i < 5)
+//{
+//    Console.WriteLine("Hello World");
+//    i++;
+//}
+
+//for(int i = 0; i < 5; i++)
+//{
+
+//    if(i == 1)
+//    {
+//        Console.WriteLine("Merhaba Dünya");
+//    }
+//    else
+//    {
+//        Console.WriteLine(i + " Hello World");
+//    }
+//}
+
+//int[] sayilar = new int[5];
+
+//for(int i = 0; i < sayilar.Length; i++)
+//{
+//    sayilar[i] = i;
+//}
+
+//Console.WriteLine("-----For Döngüsü ile Okuma-----");
+//for (int i = 0;i < sayilar.Length; i++)
+//{
+//    Console.WriteLine(sayilar[i]);
+//}
+
+//Console.WriteLine("---------While Döngüsü İle Okuma--------");
+//int j = 0;
+//while(j < sayilar.Length)
+//{
+//    Console.WriteLine(sayilar[j]);
+//    j++;
+//}
+
+//Console.WriteLine("---- Foreach İle Okuma ----");
+//foreach (int item in sayilar)
+//{
+//    Console.WriteLine(item);
+//}
+
+//int i = 6;
+//do
+//{
+//    Console.WriteLine(i + " Hello World");
+//    i++;
+//} while (i < 5);
+
+//bool dogru_mu = true;
+
+//do
+//{
+//    Console.Write("İsminizi Yazin: ");
+//    string isim = Console.ReadLine();
+//    Console.WriteLine("Merhaba " + isim);
+
+    
+
+//    var tus = Console.ReadKey();
+//    if(tus.Key == ConsoleKey.Escape)
+//    {
+//        dogru_mu = false;   
+//    }
+
+//} while (dogru_mu);
+
+// For ve foreach

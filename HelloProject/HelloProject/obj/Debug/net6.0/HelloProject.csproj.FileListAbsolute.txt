@@ -1,0 +1,14 @@
+C:\Users\musta\Desktop\CerenHoca\Dersler\HelloProject\HelloProject\bin\Debug\net6.0\HelloProject.exe
+C:\Users\musta\Desktop\CerenHoca\Dersler\HelloProject\HelloProject\bin\Debug\net6.0\HelloProject.deps.json
+C:\Users\musta\Desktop\CerenHoca\Dersler\HelloProject\HelloProject\bin\Debug\net6.0\HelloProject.runtimeconfig.json
+C:\Users\musta\Desktop\CerenHoca\Dersler\HelloProject\HelloProject\bin\Debug\net6.0\HelloProject.dll
+C:\Users\musta\Desktop\CerenHoca\Dersler\HelloProject\HelloProject\bin\Debug\net6.0\HelloProject.pdb
+C:\Users\musta\Desktop\CerenHoca\Dersler\HelloProject\HelloProject\obj\Debug\net6.0\HelloProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musta\Desktop\CerenHoca\Dersler\HelloProject\HelloProject\obj\Debug\net6.0\HelloProject.AssemblyInfoInputs.cache
+C:\Users\musta\Desktop\CerenHoca\Dersler\HelloProject\HelloProject\obj\Debug\net6.0\HelloProject.AssemblyInfo.cs
+C:\Users\musta\Desktop\CerenHoca\Dersler\HelloProject\HelloProject\obj\Debug\net6.0\HelloProject.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\CerenHoca\Dersler\HelloProject\HelloProject\obj\Debug\net6.0\HelloProject.dll
+C:\Users\musta\Desktop\CerenHoca\Dersler\HelloProject\HelloProject\obj\Debug\net6.0\refint\HelloProject.dll
+C:\Users\musta\Desktop\CerenHoca\Dersler\HelloProject\HelloProject\obj\Debug\net6.0\HelloProject.pdb
+C:\Users\musta\Desktop\CerenHoca\Dersler\HelloProject\HelloProject\obj\Debug\net6.0\HelloProject.genruntimeconfig.cache
+C:\Users\musta\Desktop\CerenHoca\Dersler\HelloProject\HelloProject\obj\Debug\net6.0\ref\HelloProject.dll
