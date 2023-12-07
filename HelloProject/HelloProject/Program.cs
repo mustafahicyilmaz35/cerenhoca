@@ -1,5 +1,5 @@
 ﻿
-
+#region İlk Bolum
 //int[] sayilar = new int[5];
 
 //sayilar[0] = 1;
@@ -174,7 +174,7 @@
 //    string isim = Console.ReadLine();
 //    Console.WriteLine("Merhaba " + isim);
 
-    
+
 
 //    var tus = Console.ReadKey();
 //    if(tus.Key == ConsoleKey.Escape)
@@ -185,3 +185,96 @@
 //} while (dogru_mu);
 
 // For ve foreach
+#endregion
+
+
+#region ikinci_bolum
+// DRY
+
+//int sayi = 2;
+//int sayi1 = 5;
+
+//int toplam = 0;
+
+//toplam = sayi + sayi1;
+//Console.WriteLine(toplam);
+
+
+//sayi = 9;
+//sayi1 = 6;
+//toplam = sayi + sayi1;
+//Console.WriteLine(toplam);
+
+//// İş yapan fonksiyonlar -> void -> procedure
+//void MerhabaDe(string isim) // Fonksiyonun tanımlanması
+//{
+//    int sayi = 10;
+//    //Console.WriteLine("Hello " + isim + " " + sayi);
+//    Console.WriteLine("Hello {0} {1}",isim,sayi);
+//}
+
+
+
+//string isim = "Ali";
+
+//MerhabaDe("Ceren"); // Fonksiyonun çağrılması
+//MerhabaDe("Merve");
+//MerhabaDe("Mustafa");
+
+//// Değer Döndüren Fonksiyonlar -> Fonksiyon
+
+////SOLID
+////Single Reponsibility
+//int Topla(int sayi, int sayi1)
+//{
+//    //Console.WriteLine("sayı1: {0} sayı2: {1} ",sayi,sayi1);
+//    //Console.WriteLine(sayi + sayi1);
+//    return sayi + sayi1;
+//}
+
+
+
+//int sonuc;
+//sonuc = Topla(2, 3);
+//Console.WriteLine(sonuc);
+
+#endregion
+
+
+//int sayi3 = 7;
+
+
+void AsalSayiKontrolEt(int sayi)
+{
+    int sayac = 0;
+    for (int i = 1; i <= sayi; i++)
+    {
+        if (sayi % i == 0)
+        {
+
+            sayac++;
+        }
+     
+    }
+
+    if (sayac == 2)
+    {
+        Console.WriteLine("Sayı Asaldır");
+    }
+    else
+    {
+        Console.WriteLine("Sayı Asal Değildir");
+    }
+}
+
+
+//AsalSayiKontrolEt(13);
+//AsalSayiKontrolEt(21);
+//AsalSayiKontrolEt(16);
+//AsalSayiKontrolEt(7);
+
+
+Console.Write("Bir Sayı Girin: ");
+int alinanSayi = Convert.ToInt32(Console.ReadLine());
+
+AsalSayiKontrolEt(alinanSayi);
