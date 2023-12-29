@@ -241,40 +241,83 @@
 #endregion
 
 
+#region ucuncu_bolum
 //int sayi3 = 7;
 
 
-void AsalSayiKontrolEt(int sayi)
-{
-    int sayac = 0;
-    for (int i = 1; i <= sayi; i++)
-    {
-        if (sayi % i == 0)
-        {
+//void AsalSayiKontrolEt(int sayi)
+//{
+//    int sayac = 0;
+//    for (int i = 1; i <= sayi; i++)
+//    {
+//        if (sayi % i == 0)
+//        {
 
-            sayac++;
-        }
-     
-    }
+//            sayac++;
+//        }
 
-    if (sayac == 2)
-    {
-        Console.WriteLine("Sayı Asaldır");
-    }
-    else
-    {
-        Console.WriteLine("Sayı Asal Değildir");
-    }
-}
+//    }
 
-
-//AsalSayiKontrolEt(13);
-//AsalSayiKontrolEt(21);
-//AsalSayiKontrolEt(16);
-//AsalSayiKontrolEt(7);
+//    if (sayac == 2)
+//    {
+//        Console.WriteLine("Sayı Asaldır");
+//    }
+//    else
+//    {
+//        Console.WriteLine("Sayı Asal Değildir");
+//    }
+//}
 
 
-Console.Write("Bir Sayı Girin: ");
-int alinanSayi = Convert.ToInt32(Console.ReadLine());
+////AsalSayiKontrolEt(13);
+////AsalSayiKontrolEt(21);
+////AsalSayiKontrolEt(16);
+////AsalSayiKontrolEt(7);
 
-AsalSayiKontrolEt(alinanSayi);
+
+//Console.Write("Bir Sayı Girin: ");
+//int alinanSayi = Convert.ToInt32(Console.ReadLine());
+
+//AsalSayiKontrolEt(alinanSayi);
+#endregion
+
+#region nesnelere giris
+//using HelloProject;
+
+//Ev ev = new Ev();
+//ev.adres = "İstabul";
+//ev.kapiNo = 1;
+//ev.odaSayisi = 3;
+
+
+//Console.WriteLine("Adres: " + ev.adres + " " + "Kapı Numarası: " + ev.kapiNo + " " + "Oda sayısı: " + ev.odaSayisi);
+
+
+//ev.AdresYaz();
+
+//Ev cereninEvi = new Ev();
+//cereninEvi.kapiNo = 5;
+//cereninEvi.adres = "Ankara";
+//cereninEvi.odaSayisi = 4;
+
+//Ev merveninEvi = new Ev();
+//merveninEvi.kapiNo= 6;
+//merveninEvi.adres = "İzmir";
+//merveninEvi.odaSayisi= 7;
+
+//Console.WriteLine("Cerenin oda sayısı " + cereninEvi.odaSayisi);
+//Console.WriteLine("Mervenin adresi "  + merveninEvi.adres);
+#endregion
+
+
+// Encapsulation, Inheritance, Polimorphizm, Abstraction
+// Erişim belirteçleri -> public, private,protected,internal
+
+
+
+using HelloProject;
+
+Ev ev = new Ev();
+ev.Adres = "Ankara";
+Console.WriteLine("Adres: " + ev.Adres);
+
